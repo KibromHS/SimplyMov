@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentOptionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="25dp"
+                android:text="Payment Options"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+
+            <LinearLayout
+                android:id="@+id/cbe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="24dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cbeImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/cbe" />
+
+                <TextView
+                    android:id="@+id/cbeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="#333"
+                    android:gravity="center"
+                    android:text="CBE Bank"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/telebirr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="24dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/telebirrImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/telebirr" />
+
+                <TextView
+                    android:id="@+id/telebirrName"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="#333"
+                    android:gravity="center"
+                    android:text="TeleBirr"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/awash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/awashImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/awas" />
+
+                <TextView
+                    android:id="@+id/awashName"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="#333"
+                    android:gravity="center"
+                    android:text="Awash Bank"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

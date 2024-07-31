@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/aboutBackBtn"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:src="@drawable/img_11" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OUR COMPANY"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We are Ethiopian based Movers company"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="With its professional and experienced staff members, Simplymov  and packers has been moving individuals, families, and businesses across  Ethiopia, Addis Ababa area since 2024 and it is all because of its loyal customers like you.
+We know moving is not easy. It can be stressful, chaotic, and downright exhausting, but no matter what challenge your move may bring, Simplymov and packers  is with you every step of the way. Our experienced staff and hard working movers will make sure your move is handled with the most care and respect every single time."
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineHeight="25dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Special Item Handling"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Careful transport of delicate or valuable items"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineHeight="25dp"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transportation"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reliable transportation ensuring your possessions arrive securely at their destination."
+                android:textSize="16sp"
+                android:lineHeight="25dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Easy Payments"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We accept various payments such as online banking like CBE,Awash,telebirr"
+                android:textSize="16sp"
+                android:lineHeight="25dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Us"
+                android:textSize="20sp"
+                android:textColor="@color/blue" />
+
+            <TextView
+                android:id="@+id/toContactBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="We Love Our Clients And They Love Us"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
